@@ -1,6 +1,6 @@
 setEPS()
 postscript(file="graphs/fig1.eps",width=10, height=5)
-plan3 <- read.csv2("~/jamilson/plan3.csv")
+plan3 <- read.csv2("~/data/cloud_costs.csv")
 par(mar=c(4,4,1,1))
 plot(plan3$X, plan3$X1.mês, type="b", ylim=c(0,1500), pch=0, xlab="", ylab="")
 par(new=TRUE)
